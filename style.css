@@ -1,0 +1,43 @@
+div img {
+    width: 20%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.hidden {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 641px){
+    label, input, button {
+        margin: 1 15px;
+    }
+    p {
+        text-align: left;
+    }
+    body {
+        width: 640px;
+    }
+}
+@media screen and (max-width: 640px){
+}
+    .displayed-img {
+        width: 90vw;
+    }
+    body {
+        font-size: 6vw;
+        width: 90vw;
+    }
+    label, input, button {
+        display: block;
+        margin: 1 auto;
+}
+
+.displayed-img {
+    margin-bottom: 25px;
+}
+
